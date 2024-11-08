@@ -1,0 +1,29 @@
+/* Importa a fonte Mistral */
+@font-face {
+    font-family: 'Mistral';
+    src: url('fonts/mistral.woff2') format('woff2'),
+         url('fonts/mistral.woff') format('woff'),
+         url('fonts/mistral.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1e1e32;
+  }
+  
+  /* Estiliza e centraliza a mensagem */
+  #mensagem {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Mistral', sans-serif;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+  }
+  
